@@ -1,0 +1,66 @@
+* {
+  direction: rtl;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+  background-color: cadetblue;
+}
+
+.grid-item {
+  /* background-color: darkgrey; */
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+table,
+th,
+td {
+  font-size: 30px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.student-name {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.date {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.image {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.student-number {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.data-table {
+  grid-column: 1/4;
+  grid-row: 3;
+}
